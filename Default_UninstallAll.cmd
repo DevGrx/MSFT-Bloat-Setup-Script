@@ -1,0 +1,1 @@
+@powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0MsftBloat.ps1" -include "%~dp0MsftBloat.psm1" -preset "%~dp0preset\UninstallAll.preset"

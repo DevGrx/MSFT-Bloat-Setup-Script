@@ -1,0 +1,82 @@
+##########
+# Windows 10 (v1507 - v21H2) UWP Apps Installer / Uninstaller - Preset template (Uninstall All Default MSFT Bloat)
+# Author: Disassembler <disassembler@dasm.cz>
+# Maintainer: Pontus Öwre <pontus@owre.se>, DevGrx
+# Version: v3.2, 2021-10-28
+# Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script (original), https://github.com/owre/Win10-Initial-Setup-Script
+##########
+
+### Require Administrator privileges ###
+RequireAdmin
+
+### Microsoft Store Default Apps ###
+Uninstall3DBuilder                           # Install3DBuilder
+UninstallAppConnector                        # InstallAppConnector
+UninstallBingFinance                         # InstallBingFinance
+UninstallBingFoodAndDrink                    # InstallBingFoodAndDrink
+UninstallBingHealthAndFitness                # InstallBingHealthAndFitness
+UninstallBingMaps                            # InstallBingMaps
+UninstallBingNews                            # InstallBingNews
+UninstallBingSports                          # InstallBingSports
+UninstallBingTranslator                      # InstallBingTranslator
+UninstallBingTravel                          # InstallBingTravel
+UninstallCommsPhone                          # InstallCommsPhone
+UninstallConnectivityStore                   # InstallConnectivityStore
+UninstallFreshPaint                          # InstallFreshPaint
+UninstallGamingServices                      # InstallGamingServices
+UninstallGetHelp                             # InstallGetHelp
+UninstallGetstarted                          # InstallGetstarted
+UninstallHelpAndTips                         # InstallHelpAndTips
+UninstallMedia.PlayReadyClient.2             # InstallMedia.PlayReadyClient.2
+UninstallMessaging                           # InstallMessaging
+UninstallMicrosoft3DViewer                   # InstallMicrosoft3DViewer
+UninstallMicrosoftOfficeHub                  # InstallMicrosoftOfficeHub
+UninstallMicrosoftPowerBIForWindows          # InstallMicrosoftPowerBIForWindows
+UninstallMicrosoftSolitaireCollection        # InstallMicrosoftSolitaireCollection
+UninstallMinecraftUWP                        # InstallMinecraftUWP
+UninstallMixedReality.Portal                 # InstallMixedReality.Portal
+UninstallMoCamera                            # InstallMoCamera
+UninstallNetworkSpeedTest                    # InstallNetworkSpeedTest
+UninstallOfficeLens                          # InstallOfficeLens
+UninstallOffice.OneNote                      # InstallOffice.OneNote
+UninstallOffice.Sway                         # InstallOffice.Sway
+UninstallOneConnect                          # InstallOneConnect
+UninstallPeople                              # InstallPeople
+UninstallPrint3D                             # InstallPrint3D
+UninstallReader                              # InstallReader
+UninstallRemoteDesktop                       # InstallRemoteDesktop
+UninstallScreenSketch                        # InstallScreenSketch
+UninstallSkypeApp                            # InstallSkypeApp
+UninstallTodos                               # InstallTodos
+UninstallWallet                              # InstallWallet
+UninstallWebMediaExtensions                  # InstallWebMediaExtensions
+UninstallWhiteboard                          # InstallWhiteboard
+UninstallWindowsAlarms                       # InstallWindowsAlarms
+UninstallWindowsCamera                       # InstallWindowsCamera
+UninstallWindowsFeedbackHub                  # InstallWindowsFeedbackHub
+UninstallWindowsMaps                         # InstallWindowsMaps
+UninstallWindowsPhone                        # InstallWindowsPhone
+UninstallWindowsReadingList                  # InstallWindowsReadingList
+UninstallWindowsScan                         # InstallWindowsScan
+UninstallWindowsSoundRecorder                # InstallWindowsSoundRecorder
+UninstallWinJS.1.0                           # InstallWinJS.1.0
+UninstallWinJS.2.0                           # InstallWinJS.2.0
+UninstallYourPhone                           # InstallYourPhone
+UninstallZuneMusic                           # InstallZuneMusic
+UninstallZuneVideo                           # InstallZuneVideo
+
+## Optional ##
+# UninstallAdvertising.Xaml                  # InstallAdvertising.Xaml
+# UninstallBingWeather                       # InstallBingWeather
+# UninstallMicrosoftStickyNotes              # InstallMicrosoftStickyNotes
+# UninstallMSPaint                           # InstallMSPaint
+# UninstallWindowsCalculator                 # InstallWindowsCalculator
+# UninstallWindowsCommunicationsApps         # InstallWindowsCommunicationsApps
+# UninstallWindows.Photos                    # InstallWindows.Photos
+
+## Microsoft Store ##
+# UninstallWindowsStore                      # InstallWindowsStore
+
+### Auxiliary Functions ###
+WaitForKey
+Restart
